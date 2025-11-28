@@ -201,8 +201,8 @@ span{
 
 .words-wrapper {
     position: relative;
-    width: 200px; /* or adjust width to fit your longest word */
-    height: 40px; /* approximate height of the words */
+    width: 200px;
+    height: 40px;
 }
 
 .words-wrapper .word {
@@ -278,6 +278,15 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
 }
 
 .projects {
